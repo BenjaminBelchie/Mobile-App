@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.NavigationPageView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Home Page" Margin="5" x:Name="HomePageButton" Clicked="HomePageButton_Clicked"></Button>
+            <Button Text="Pie Overview" Margin="5" x:Name="PieOverviewButton" Clicked="PieOverviewButton_Clicked"></Button>
+            <Button Text="Basket" Margin="5" x:Name="Basket" Clicked="Basket_Clicked"></Button>
+            <Button Text="Contact Us" Margin="5" x:Name="Contact" Clicked="Contact_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:helpers="clr-namespace:App1.Helpers"
+             x:Class="App1.carouselpageView">
+    <ContentPage>
+        <Label FontSize="Large"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               Text="Welcome to my app!">
+        </Label>
+    </ContentPage>
+            <helpers:PieOverview></helpers:PieOverview>
+            <helpers:BasketView></helpers:BasketView>
+            <helpers:ContactUs></helpers:ContactUs>
+</CarouselPage>
